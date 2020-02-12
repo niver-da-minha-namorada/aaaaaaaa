@@ -1,0 +1,31 @@
+body{
+    background-color: grey;
+    
+}
+h1{
+    text-align: center;
+    font-weight:bold;
+}
+p{
+    text-align: center;
+}
+button{
+    height:50px ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: bold;
+    border: 3px solid;
+}
+img.displayed {
+    background-color: #ddd;
+    border-radius: 100%;
+    object-fit: cover;
+    height: 10cm;
+    width: 10cm;
+    margin: bold;
+    border: 7px solid;
+    background-position: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
