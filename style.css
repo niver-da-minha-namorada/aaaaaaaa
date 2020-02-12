@@ -9,6 +9,9 @@ h1{
 h3{
     text-align: center;
 }
+h6{
+    text-align: center;
+}
 p{
     text-align: center;
 }
@@ -32,33 +35,32 @@ img.displayed {
     display: block;
     margin-left: auto;
     margin-right: auto; }
-    
-.heart {
-    margin: 200px;
-    background-color: red;
-    height: 200px;
-    transform: rotate(-45deg);
-    width: 200px;
-    position: relative;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
 
-.heart:before,
-.heart:after {
-    content: "";
-    background-color: red;
-    border-radius: 50%;
-    height: 200px;
-    position: absolute;
-    width: 200px;
-}
+    .heart {
+        margin: 200px;
+        background-color: red;
+        height: 200px;
+        transform: rotate(-45deg);
+        width: 200px;
+        position: relative;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .heart:before,
+    .heart:after {
+        content: "";
+        background-color: red;
+        border-radius: 50%;
+        height: 200px;
+        position: absolute;
+        width: 200px;
+    }
 
-.heart:before {
-    top: -100px;
-}
+    .heart:before {
+        top: -100px;
+    }
 
-.heart:after {
-    left: 100px;
-}
+    .heart:after {
+        left: 100px;
+    }
