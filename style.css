@@ -3,6 +3,12 @@ body{
     
 }
 h1{
+    font-size: 44;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+
+}
+h2{
     text-align: center;
     font-weight:bold;
 }
@@ -15,14 +21,27 @@ h6{
 p{
     text-align: center;
 }
-button{
-    height:50px ;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin: bold;
-    border: 3px solid;
+.myButton {
+	background-color:#c744c0;
+	border-radius:28px;
+    border:1px solid #7d18ab;
+    display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #662761;
 }
+.myButton:hover {
+	background-color:#780396;
+}
+.myButton:active {
+	position: center;
+	top:1px;
+}
+
 img.displayed {
     background-color: #ddd;
     border-radius: 100%;
